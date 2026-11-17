@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { Component, inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser, CommonModule } from '@angular/common';
+import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CartDrawerComponent } from './components/cart-drawer/cart-drawer.component';
@@ -24,4 +25,17 @@ import { ToastContainerComponent } from './components/toast-container/toast-cont
 })
 export class AppComponent {
   title = 'AURA Store';
+
+  constructor() {
+    const router = inject(Router);
+    const platformId = inject(PLATFORM_ID);
+
+    if (isPlatformBrowser(platformId)) {
+      router.events.pipe(
+        filter(event => event instanceof NavigationEnd)
+      ).subscribe(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      });
+    }
+  }
 }

@@ -27,16 +27,10 @@ import { ProductService } from '../../services/product.service';
 
         <!-- Badge (Top Left) -->
         @if (product.badge) {
-          <div class="absolute top-3 left-3 z-10">
+          <div class="absolute top-3 left-3 z-10 pointer-events-none">
             <span
-              class="px-2.5 py-1 text-xs font-semibold rounded-full shadow-sm backdrop-blur-md"
-              [ngClass]="{
-                'bg-slate-900/90 text-white': product.badge === 'Bestseller',
-                'bg-emerald-500/90 text-white': product.badge === 'New Arrival' || product.badge === 'New',
-                'bg-rose-500/90 text-white': product.badge === 'Sale' || product.badge === 'Top Rated',
-                'bg-amber-500/90 text-white': product.badge === 'Trending' || product.badge === 'Staff Pick',
-                'bg-slate-500/90 text-white': product.badge === 'Sold Out'
-              }"
+              class="px-2.5 py-1 text-[10px] font-bold tracking-wider uppercase rounded-full shadow-md text-white border border-white/20"
+              [ngClass]="getBadgeClass(product.badge)"
             >
               {{ product.badge }}
             </span>
@@ -158,6 +152,29 @@ export class ProductCardComponent {
     event.stopPropagation();
     if (!this.product.inStock) return;
     this.cartService.addToCart(this.product, 1);
+  }
+
+  getBadgeClass(badge?: string): string {
+    switch (badge) {
+      case 'Bestseller':
+        return 'bg-slate-900';
+      case 'New Arrival':
+      case 'New':
+        return 'bg-emerald-600';
+      case 'Sale':
+        return 'bg-rose-600';
+      case 'Top Rated':
+        return 'bg-amber-600';
+      case 'Trending':
+      case 'Staff Pick':
+        return 'bg-indigo-600';
+      case 'Sold Out':
+        return 'bg-slate-600';
+      case 'Handmade':
+        return 'bg-amber-800';
+      default:
+        return 'bg-brand-600';
+    }
   }
 
   onImgError(event: Event): void {
