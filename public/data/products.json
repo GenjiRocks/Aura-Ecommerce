@@ -1,0 +1,432 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Aura Studio ANC Wireless Headphones",
+    "slug": "aura-studio-anc-wireless-headphones",
+    "category": "Electronics",
+    "price": 299,
+    "originalPrice": 349,
+    "rating": 4.9,
+    "reviewsCount": 248,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Engineered for pure acoustic precision. Features adaptive hybrid active noise cancellation, custom 40mm titanium drivers, spatial audio, and an ultra-plush memory foam design for up to 45 hours of immersive playtime.",
+    "features": [
+      "Hybrid Active Noise Cancellation with Transparency Mode",
+      "Custom 40mm Dynamic Drivers with Hi-Res Audio certification",
+      "Up to 45 hours battery life with fast charging (10 mins = 5 hrs)",
+      "Multipoint Bluetooth 5.3 connection & beamforming microphone array"
+    ],
+    "inStock": true,
+    "stockQuantity": 38,
+    "badge": "Bestseller",
+    "colors": ["#0f172a", "#f1f5f9", "#78716c"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-2",
+    "name": "Apex Horizon 34-Inch Curved Ultra-Wide Monitor",
+    "slug": "apex-horizon-34-inch-curved-monitor",
+    "category": "Electronics",
+    "price": 649,
+    "originalPrice": 799,
+    "rating": 4.8,
+    "reviewsCount": 115,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Unlock seamless multitasking and breathtaking panoramic immersion with 3440x1440 WQHD resolution, 165Hz refresh rate, HDR400, and 99% sRGB color accuracy.",
+    "features": [
+      "1500R curvature for natural ergonomic eye tracking",
+      "165Hz Refresh Rate with 1ms AMD FreeSync Premium Pro",
+      "Single USB-C cable for display, data, and 90W laptop charging",
+      "Built-in KVM switch and dual stereo studio speakers"
+    ],
+    "inStock": true,
+    "stockQuantity": 14,
+    "badge": "Trending",
+    "colors": ["#1e293b", "#e2e8f0"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-3",
+    "name": "Vanguard Titan Smartwatch Pro",
+    "slug": "vanguard-titan-smartwatch-pro",
+    "category": "Electronics",
+    "price": 249,
+    "originalPrice": 299,
+    "rating": 4.7,
+    "reviewsCount": 182,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Aerospace-grade titanium chassis with sapphire crystal glass. Features precision dual-frequency GPS, biometric continuous ECG and blood oxygen tracking, and 14-day battery reserve.",
+    "features": [
+      "Grade 5 Titanium bezel & scratch-resistant Sapphire display",
+      "Dual-frequency GNSS positioning (GPS, GLONASS, Galileo)",
+      "Advanced sleep staging, ECG, SpO2 & VO2 Max tracking",
+      "10 ATM water resistance up to 100 meters"
+    ],
+    "inStock": true,
+    "stockQuantity": 27,
+    "badge": "New Arrival",
+    "colors": ["#020617", "#94a3b8", "#f59e0b"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-4",
+    "name": "Luminary RGB Mechanical Wireless Keyboard",
+    "slug": "luminary-rgb-mechanical-keyboard",
+    "category": "Electronics",
+    "price": 159,
+    "originalPrice": 189,
+    "rating": 4.9,
+    "reviewsCount": 310,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Custom aluminum body with hot-swappable tactile switches, sound-dampening silicone gaskets, and per-key South-facing dynamic RGB backlighting.",
+    "features": [
+      "Gasket mounted architecture with PORON foam dampening",
+      "Tri-mode connectivity: 2.4Ghz, Bluetooth 5.1 & Type-C wired",
+      "PBT Double-shot shine-through cherry profile keycaps",
+      "Compatible with macOS and Windows with instant key remapping"
+    ],
+    "inStock": true,
+    "stockQuantity": 45,
+    "badge": "Popular",
+    "colors": ["#334155", "#cbd5e1"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-5",
+    "name": "Orbita 3-in-1 MagSafe Magnetic Charging Hub",
+    "slug": "orbita-3-in-1-magsafe-charging-hub",
+    "category": "Electronics",
+    "price": 89,
+    "originalPrice": 110,
+    "rating": 4.6,
+    "reviewsCount": 89,
+    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Streamline your bedside or workspace with 15W fast wireless charging for your phone, smartwatch, and wireless earbuds simultaneously.",
+    "features": [
+      "Certified 15W MagSafe fast charging technology",
+      "Machined zinc alloy and weighted base with anti-slip silicone",
+      "Floating magnetic orientation in both portrait and landscape",
+      "Intelligent temperature control and foreign object detection"
+    ],
+    "inStock": true,
+    "stockQuantity": 60,
+    "badge": "Sale",
+    "colors": ["#0f172a", "#f8fafc"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-6",
+    "name": "Nomad Heavyweight French Terry Hoodie",
+    "slug": "nomad-heavyweight-french-terry-hoodie",
+    "category": "Fashion & Apparel",
+    "price": 95,
+    "originalPrice": 120,
+    "rating": 4.8,
+    "reviewsCount": 164,
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Crafted from 500 GSM organic ringspun cotton. Tailored with a relaxed dropped-shoulder boxy fit, double-lined hood, and reinforced flatlock stitching.",
+    "features": [
+      "100% GOTS Certified 500 GSM organic cotton",
+      "Preshrunk heavy fleece to maintain silhouette after washing",
+      "Minimalist unbranded aesthetic with hidden kangaroo pocket pouch",
+      "Ribbed side gussets for enhanced freedom of movement"
+    ],
+    "inStock": true,
+    "stockQuantity": 22,
+    "badge": "Bestseller",
+    "colors": ["#18181b", "#71717a", "#d4d4d8", "#451a03"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-7",
+    "name": "Strata Minimalist Italian Leather Court Sneakers",
+    "slug": "strata-italian-leather-court-sneakers",
+    "category": "Fashion & Apparel",
+    "price": 185,
+    "originalPrice": 225,
+    "rating": 4.9,
+    "reviewsCount": 204,
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Hand-stitched in Tuscany from full-grain calfskin leather with Margom vulcanized rubber outsoles and antimicrobial calf leather lining.",
+    "features": [
+      "Full-grain buttery calfskin leather uppers",
+      "Margom durable Italian rubber cupsole",
+      "Removable cushioned memory foam arch support insole",
+      "Tonal waxed cotton laces with metal aglets"
+    ],
+    "inStock": true,
+    "stockQuantity": 19,
+    "badge": "Trending",
+    "colors": ["#ffffff", "#000000", "#78716c"],
+    "sizes": ["40", "41", "42", "43", "44", "45"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-8",
+    "name": "Element Technical All-Weather Shell Parka",
+    "slug": "element-technical-all-weather-parka",
+    "category": "Fashion & Apparel",
+    "price": 275,
+    "originalPrice": 320,
+    "rating": 4.7,
+    "reviewsCount": 92,
+    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Engineered with 3-layer waterproof breathable membrane (20,000mm rating), taped seams, magnetic storm flap, and modular stowable storm hood.",
+    "features": [
+      "20k/20k waterproof and breathability rating",
+      "Fully seam-sealed construction with YKK AquaGuard zippers",
+      "Internal thermal tech-mesh lining and underarm ventilation zips",
+      "Modular dual-entry fleece-lined exterior hand pockets"
+    ],
+    "inStock": true,
+    "stockQuantity": 16,
+    "badge": "Staff Pick",
+    "colors": ["#0f172a", "#14532d", "#3f3f46"],
+    "sizes": ["S", "M", "L", "XL"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-9",
+    "name": "Heritage Hand-Burnished Chelsea Boots",
+    "slug": "heritage-hand-burnished-chelsea-boots",
+    "category": "Fashion & Apparel",
+    "price": 210,
+    "originalPrice": 260,
+    "rating": 4.8,
+    "reviewsCount": 138,
+    "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Classic British profile built with Goodyear welt construction, supple waxed suede, durable elastic side gores, and studded Dainite rubber outsoles.",
+    "features": [
+      "Goodyear welted for lifelong resoleability",
+      "Weather-resistant waxed suede from CF Stead tannery",
+      "Reinforced rear pull tab and elasticized side panels",
+      "Cork filling that molds naturally to the contours of your foot"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "badge": "Sold Out",
+    "colors": ["#78350f", "#1c1917"],
+    "sizes": ["41", "42", "43", "44"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-10",
+    "name": "Aura Kanso Ceramic Ultrasonic Essential Oil Diffuser",
+    "slug": "aura-kanso-ceramic-ultrasonic-diffuser",
+    "category": "Home & Workspace",
+    "price": 68,
+    "originalPrice": 85,
+    "rating": 4.9,
+    "reviewsCount": 382,
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Crafted with a matte porcelain ceramic stone shell. Transforms water and pure essential oils into a gentle cold scented mist with ambient warm illumination.",
+    "features": [
+      "Handcrafted matte stone ceramic cover",
+      "Ultrasonic 2.4MHz vibration for pure atomization without heat",
+      "Continuous & intermittent misting modes (up to 10 hours runtime)",
+      "Auto shut-off safety sensor when reservoir is depleted"
+    ],
+    "inStock": true,
+    "stockQuantity": 50,
+    "badge": "Bestseller",
+    "colors": ["#f8fafc", "#18181b", "#e0e7ff"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-11",
+    "name": "Zenith Ergonomic High-Back Task Chair",
+    "slug": "zenith-ergonomic-high-back-task-chair",
+    "category": "Home & Workspace",
+    "price": 420,
+    "originalPrice": 520,
+    "rating": 4.8,
+    "reviewsCount": 177,
+    "image": "https://images.unsplash.com/photo-1589384267710-7a170981ca78?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1589384267710-7a170981ca78?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Designed for 12+ hour focus. Responsive 4D adjustable armrests, adaptive lumbar support mechanism, and high-tensile breathable Korean mesh.",
+    "features": [
+      "Self-adjusting dynamic lumbar pressure pad",
+      "4D multidirectional armrests with soft PU padding",
+      "135-degree tilt reclining lock with tension control dial",
+      "Class-4 heavy-duty SGS pneumatic gas lift cylinder"
+    ],
+    "inStock": true,
+    "stockQuantity": 12,
+    "badge": "Top Rated",
+    "colors": ["#020617", "#64748b"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-12",
+    "name": "Halo Smart Monitor Light Bar & Desk Glow",
+    "slug": "halo-smart-monitor-light-bar",
+    "category": "Home & Workspace",
+    "price": 79,
+    "originalPrice": 99,
+    "rating": 4.7,
+    "reviewsCount": 215,
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Eliminates screen glare and eye fatigue with asymmetric forward optical design, stepless rotary wireless controller dial, and CRI 95+ sunlight LEDs.",
+    "features": [
+      "Asymmetrical light path prevents reflections on monitor screens",
+      "Wireless desktop rotary dial for brightness and color temperature (2700K-6500K)",
+      "High Color Rendering Index (Ra >= 95) restores vivid natural colors",
+      "USB-C powered directly from computer or monitor hub"
+    ],
+    "inStock": true,
+    "stockQuantity": 35,
+    "badge": "New",
+    "colors": ["#0f172a", "#94a3b8"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-13",
+    "name": "Komorebi Artisanal Ceramic Pour-Over Mug Set",
+    "slug": "komorebi-artisanal-ceramic-mug-set",
+    "category": "Home & Workspace",
+    "price": 54,
+    "originalPrice": 65,
+    "rating": 4.9,
+    "reviewsCount": 140,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Set of 2 wheel-thrown stoneware ceramic mugs paired with a matching slow dripper cone. Glazed with natural iron-speckled reactive earthy finish.",
+    "features": [
+      "Each piece hand-finished with unique reactive glaze variations",
+      "Double-walled thermal ceramic retains beverage temperature",
+      "Microwave and dishwasher safe lead-free food-safe glaze",
+      "Ergonomic thumb-rest handle for balanced grip"
+    ],
+    "inStock": true,
+    "stockQuantity": 28,
+    "badge": "Handmade",
+    "colors": ["#d97706", "#78716c", "#1e293b"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-14",
+    "name": "Aero Commuter Weatherproof Rolltop Backpack 24L",
+    "slug": "aero-commuter-weatherproof-backpack-24l",
+    "category": "Accessories & Gear",
+    "price": 145,
+    "originalPrice": 175,
+    "rating": 4.9,
+    "reviewsCount": 276,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Made from recycled Cordura ballistic nylon. Features magnetic Fidlock V-buckles, a suspended 16-inch fleece laptop sleeve, and expandable rolltop volume.",
+    "features": [
+      "Cordura 840D recycled ballistic nylon with water-repellent coating",
+      "German engineered Fidlock magnetic quick-release closures",
+      "Suspended false-bottom laptop compartment protects during drops",
+      "Hidden luggage pass-through strap and RFID secure passport slot"
+    ],
+    "inStock": true,
+    "stockQuantity": 33,
+    "badge": "Bestseller",
+    "colors": ["#09090b", "#475569", "#713f12"],
+    "isFeatured": true
+  },
+  {
+    "id": "prod-15",
+    "name": "Solstice Polarized Handcrafted Acetate Sunglasses",
+    "slug": "solstice-polarized-acetate-sunglasses",
+    "category": "Accessories & Gear",
+    "price": 125,
+    "originalPrice": 150,
+    "rating": 4.7,
+    "reviewsCount": 118,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Custom cellulose acetate frame with 5-barrel German OBE hinges, anti-reflective interior coating, and 100% UVA/UVB polarized nylon lenses.",
+    "features": [
+      "Eco-friendly Mazzucchelli Italian biodegradable acetate",
+      "Category 3 polarized lenses with hydrophobic oleophobic coating",
+      "Wire core temple architecture allows custom ergonomic adjustment",
+      "Includes hard folding vegan leather travel case & microfiber cloth"
+    ],
+    "inStock": true,
+    "stockQuantity": 40,
+    "badge": "Trending",
+    "colors": ["#1c1917", "#78350f", "#0f766e"],
+    "isFeatured": false
+  },
+  {
+    "id": "prod-16",
+    "name": "Aura Edge Slim RFID Blocking Cardholder Wallet",
+    "slug": "aura-edge-slim-rfid-cardholder",
+    "category": "Accessories & Gear",
+    "price": 45,
+    "originalPrice": 60,
+    "rating": 4.8,
+    "reviewsCount": 420,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Precision laser-cut anodized aluminum with quick card-fan ejection trigger and top-grain vegetable tanned leather exterior.",
+    "features": [
+      "Instant mechanical card-eject mechanism holds up to 7 cards",
+      "Embedded RFID and NFC frequency blocking prevents digital theft",
+      "Integrated elastic cash band for bills and extra receipts",
+      "Ultra-slim 8mm profile fits seamlessly in any pocket"
+    ],
+    "inStock": true,
+    "stockQuantity": 85,
+    "badge": "Popular",
+    "colors": ["#020617", "#64748b", "#991b1b"],
+    "isFeatured": false
+  }
+]

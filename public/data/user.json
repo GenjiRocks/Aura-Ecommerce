@@ -1,0 +1,54 @@
+{
+  "id": "usr-8821",
+  "name": "Ashwin",
+  "email": "ashwin@example.com",
+  "phone": "+91 98765 43210",
+  "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80&auto=format&fit=crop",
+  "role": "customer",
+  "memberSince": "March 2024",
+  "tier": "Aura Black VIP",
+  "savedAddresses": [
+    {
+      "id": "addr-1",
+      "isDefault": true,
+      "tag": "Home",
+      "fullName": "Ashwin",
+      "phone": "+91 98765 43210",
+      "street": "42 Silicon Residency, 100ft Road, Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560038",
+      "country": "India"
+    },
+    {
+      "id": "addr-2",
+      "isDefault": false,
+      "tag": "Work",
+      "fullName": "Ashwin",
+      "phone": "+91 98765 43210",
+      "street": "Tower 4, Floor 7, Global Tech Park, Outer Ring Road, Bellandur",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560103",
+      "country": "India"
+    }
+  ],
+  "savedPaymentMethods": [
+    {
+      "id": "pm-1",
+      "type": "card",
+      "brand": "Visa",
+      "last4": "4242",
+      "holder": "Ashwin",
+      "expiry": "08/28",
+      "isDefault": true
+    },
+    {
+      "id": "pm-2",
+      "type": "upi",
+      "brand": "Google Pay",
+      "upiId": "ashwin@okaxis",
+      "isDefault": false
+    }
+  ]
+}

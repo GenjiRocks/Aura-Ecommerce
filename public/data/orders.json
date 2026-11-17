@@ -1,0 +1,236 @@
+[
+  {
+    "id": "ORD-94821",
+    "createdAt": "2026-11-15T10:30:00Z",
+    "customer": {
+      "name": "Ashwin",
+      "email": "ashwin@example.com",
+      "phone": "+91 98765 43210"
+    },
+    "shippingAddress": {
+      "street": "42 Silicon Residency, 100ft Road, Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560038",
+      "country": "India"
+    },
+    "status": "In Transit",
+    "paymentMethod": "UPI (Google Pay)",
+    "paymentStatus": "Paid",
+    "courier": "BlueDart Express",
+    "trackingNumber": "BD-88239041IN",
+    "estimatedDelivery": "2026-11-18",
+    "items": [
+      {
+        "id": "prod-1",
+        "name": "Aura Studio ANC Wireless Headphones",
+        "price": 299,
+        "quantity": 1,
+        "color": "#0f172a",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "prod-16",
+        "name": "Aura Edge Slim RFID Blocking Cardholder Wallet",
+        "price": 45,
+        "quantity": 1,
+        "color": "#020617",
+        "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "subtotal": 344,
+    "shipping": 0,
+    "tax": 27.52,
+    "discount": 20,
+    "total": 351.52,
+    "timeline": [
+      {
+        "status": "Order Placed",
+        "time": "2026-11-15 10:30 AM",
+        "completed": true,
+        "note": "Payment confirmed via UPI"
+      },
+      {
+        "status": "Processing & Packaging",
+        "time": "2026-11-15 02:15 PM",
+        "completed": true,
+        "note": "Quality checked and packaged at Central Hub"
+      },
+      {
+        "status": "Dispatched",
+        "time": "2026-11-16 09:00 AM",
+        "completed": true,
+        "note": "Handed over to BlueDart Express"
+      },
+      {
+        "status": "In Transit",
+        "time": "2026-11-17 08:30 AM",
+        "completed": true,
+        "note": "Arrived at Regional Sort Facility, Bengaluru"
+      },
+      {
+        "status": "Out for Delivery",
+        "time": "Expected tomorrow",
+        "completed": false,
+        "note": "Courier rider assignment pending"
+      },
+      {
+        "status": "Delivered",
+        "time": "Estimated Nov 18",
+        "completed": false,
+        "note": "Delivery signature required"
+      }
+    ]
+  },
+  {
+    "id": "ORD-93710",
+    "createdAt": "2026-11-08T14:15:00Z",
+    "customer": {
+      "name": "Ashwin",
+      "email": "ashwin@example.com",
+      "phone": "+91 98765 43210"
+    },
+    "shippingAddress": {
+      "street": "42 Silicon Residency, 100ft Road, Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560038",
+      "country": "India"
+    },
+    "status": "Delivered",
+    "paymentMethod": "Credit Card (Visa ending in 4242)",
+    "paymentStatus": "Paid",
+    "courier": "FedEx Priority",
+    "trackingNumber": "FX-90234120IN",
+    "estimatedDelivery": "2026-11-11",
+    "items": [
+      {
+        "id": "prod-10",
+        "name": "Aura Kanso Ceramic Ultrasonic Essential Oil Diffuser",
+        "price": 68,
+        "quantity": 2,
+        "color": "#f8fafc",
+        "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "subtotal": 136,
+    "shipping": 0,
+    "tax": 10.88,
+    "discount": 0,
+    "total": 146.88,
+    "timeline": [
+      {
+        "status": "Order Placed",
+        "time": "2026-11-08 02:15 PM",
+        "completed": true,
+        "note": "Payment verified"
+      },
+      {
+        "status": "Processing & Packaging",
+        "time": "2026-11-08 05:40 PM",
+        "completed": true,
+        "note": "Packed with bubble cushioning"
+      },
+      {
+        "status": "Dispatched",
+        "time": "2026-11-09 10:20 AM",
+        "completed": true,
+        "note": "Picked up by FedEx"
+      },
+      {
+        "status": "In Transit",
+        "time": "2026-11-10 11:00 AM",
+        "completed": true,
+        "note": "Crossed sorting facility"
+      },
+      {
+        "status": "Out for Delivery",
+        "time": "2026-11-11 09:30 AM",
+        "completed": true,
+        "note": "Delivery agent assigned"
+      },
+      {
+        "status": "Delivered",
+        "time": "2026-11-11 01:25 PM",
+        "completed": true,
+        "note": "Received by Ashwin"
+      }
+    ]
+  },
+  {
+    "id": "ORD-92105",
+    "createdAt": "2026-11-02T16:45:00Z",
+    "customer": {
+      "name": "Ashwin",
+      "email": "ashwin@example.com",
+      "phone": "+91 98765 43210"
+    },
+    "shippingAddress": {
+      "street": "42 Silicon Residency, 100ft Road, Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560038",
+      "country": "India"
+    },
+    "status": "Delivered",
+    "paymentMethod": "UPI (PhonePe)",
+    "paymentStatus": "Paid",
+    "courier": "Delhivery Express",
+    "trackingNumber": "DL-77341920IN",
+    "estimatedDelivery": "2026-11-05",
+    "items": [
+      {
+        "id": "prod-6",
+        "name": "Nomad Heavyweight French Terry Hoodie",
+        "price": 95,
+        "quantity": 1,
+        "color": "#18181b",
+        "size": "L",
+        "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "subtotal": 95,
+    "shipping": 5,
+    "tax": 7.60,
+    "discount": 0,
+    "total": 107.60,
+    "timeline": [
+      {
+        "status": "Order Placed",
+        "time": "2026-11-02 04:45 PM",
+        "completed": true,
+        "note": "Order verified"
+      },
+      {
+        "status": "Processing & Packaging",
+        "time": "2026-11-03 10:00 AM",
+        "completed": true,
+        "note": "Dispatched from warehouse"
+      },
+      {
+        "status": "Dispatched",
+        "time": "2026-11-03 03:00 PM",
+        "completed": true,
+        "note": "In logistics network"
+      },
+      {
+        "status": "In Transit",
+        "time": "2026-11-04 12:00 PM",
+        "completed": true,
+        "note": "Local branch scan"
+      },
+      {
+        "status": "Out for Delivery",
+        "time": "2026-11-05 08:45 AM",
+        "completed": true,
+        "note": "Out for delivery"
+      },
+      {
+        "status": "Delivered",
+        "time": "2026-11-05 03:10 PM",
+        "completed": true,
+        "note": "Delivered to reception"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="auraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="auraAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <!-- Sleek dark squircle -->
+  <rect width="128" height="128" rx="36" fill="url(#auraBg)"/>
+  <rect x="1.5" y="1.5" width="125" height="125" rx="34.5" fill="none" stroke="#334155" stroke-width="3"/>
+  
+  <!-- Modern Geometric A Monogram -->
+  <path d="M64 26 L98 98 L78 98 L71 82 L57 82 L50 98 L30 98 Z M64 48 L56 68 L72 68 Z" fill="#ffffff"/>
+  <!-- Vibrant Brand Glow Bar -->
+  <path d="M54 67 L74 67 L71 74 L57 74 Z" fill="url(#auraAccent)"/>
+  <circle cx="64" cy="24" r="5" fill="url(#auraAccent)"/>
+</svg>
