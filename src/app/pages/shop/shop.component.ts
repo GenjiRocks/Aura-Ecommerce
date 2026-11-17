@@ -47,7 +47,8 @@ import { Product } from '../../models/ecommerce.models';
               <div class="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200 text-xs shadow-xs">
                 <span class="text-slate-400 font-medium">Sort by:</span>
                 <select
-                  [(ngModel)]="sortBy"
+                  [ngModel]="sortBy()"
+                  (ngModelChange)="sortBy.set($event)"
                   class="bg-transparent font-semibold text-slate-800 focus:outline-none cursor-pointer"
                 >
                   <option value="featured">Featured Picks</option>
@@ -74,7 +75,8 @@ import { Product } from '../../models/ecommerce.models';
                 <div class="relative">
                   <input
                     type="text"
-                    [(ngModel)]="searchKeyword"
+                    [ngModel]="searchKeyword()"
+                    (ngModelChange)="searchKeyword.set($event)"
                     placeholder="Keywords, model, feature..."
                     class="w-full pl-9 pr-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500"
                   />
@@ -144,17 +146,17 @@ import { Product } from '../../models/ecommerce.models';
                 <label class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2.5">Customer Rating</label>
                 <div class="space-y-1.5">
                   <label class="flex items-center gap-2 text-xs text-slate-600 cursor-pointer">
-                    <input type="radio" name="minRating" [value]="0" [(ngModel)]="minRating" class="accent-brand-600" />
+                    <input type="radio" name="minRating" [value]="0" [ngModel]="minRating()" (ngModelChange)="minRating.set($event)" class="accent-brand-600" />
                     <span>Any rating</span>
                   </label>
                   <label class="flex items-center gap-2 text-xs text-slate-600 cursor-pointer">
-                    <input type="radio" name="minRating" [value]="4.5" [(ngModel)]="minRating" class="accent-brand-600" />
+                    <input type="radio" name="minRating" [value]="4.5" [ngModel]="minRating()" (ngModelChange)="minRating.set($event)" class="accent-brand-600" />
                     <span class="flex items-center gap-1 font-semibold text-slate-800">
                       4.5★ & up
                     </span>
                   </label>
                   <label class="flex items-center gap-2 text-xs text-slate-600 cursor-pointer">
-                    <input type="radio" name="minRating" [value]="4.8" [(ngModel)]="minRating" class="accent-brand-600" />
+                    <input type="radio" name="minRating" [value]="4.8" [ngModel]="minRating()" (ngModelChange)="minRating.set($event)" class="accent-brand-600" />
                     <span class="flex items-center gap-1 font-semibold text-slate-800">
                       4.8★ & up (Top Tier)
                     </span>
@@ -168,7 +170,8 @@ import { Product } from '../../models/ecommerce.models';
                   <span>In Stock Only</span>
                   <input
                     type="checkbox"
-                    [(ngModel)]="inStockOnly"
+                    [ngModel]="inStockOnly()"
+                    (ngModelChange)="inStockOnly.set($event)"
                     class="w-4 h-4 accent-brand-600 rounded cursor-pointer"
                   />
                 </label>
@@ -201,10 +204,10 @@ import { Product } from '../../models/ecommerce.models';
                   </span>
                 }
 
-                @if (searchKeyword) {
+                @if (searchKeyword()) {
                   <span class="inline-flex items-center gap-1 px-3 py-1 bg-white border border-slate-200 rounded-full text-xs font-semibold text-slate-800 shadow-xs">
-                    "{{ searchKeyword }}"
-                    <button (click)="searchKeyword = ''" class="text-slate-400 hover:text-slate-700">&times;</button>
+                    "{{ searchKeyword() }}"
+                    <button (click)="searchKeyword.set('')" class="text-slate-400 hover:text-slate-700">&times;</button>
                   </span>
                 }
 
@@ -215,17 +218,17 @@ import { Product } from '../../models/ecommerce.models';
                   </span>
                 }
 
-                @if (minRating > 0) {
+                @if (minRating() > 0) {
                   <span class="inline-flex items-center gap-1 px-3 py-1 bg-white border border-slate-200 rounded-full text-xs font-semibold text-slate-800 shadow-xs">
-                    Rating {{ minRating }}★+
-                    <button (click)="minRating = 0" class="text-slate-400 hover:text-slate-700">&times;</button>
+                    Rating {{ minRating() }}★+
+                    <button (click)="minRating.set(0)" class="text-slate-400 hover:text-slate-700">&times;</button>
                   </span>
                 }
 
-                @if (inStockOnly) {
+                @if (inStockOnly()) {
                   <span class="inline-flex items-center gap-1 px-3 py-1 bg-white border border-slate-200 rounded-full text-xs font-semibold text-slate-800 shadow-xs">
                     In Stock
-                    <button (click)="inStockOnly = false" class="text-slate-400 hover:text-slate-700">&times;</button>
+                    <button (click)="inStockOnly.set(false)" class="text-slate-400 hover:text-slate-700">&times;</button>
                   </span>
                 }
 
@@ -328,7 +331,7 @@ import { Product } from '../../models/ecommerce.models';
           <div>
             <label class="flex items-center justify-between text-xs font-bold text-slate-900">
               <span>In Stock Only</span>
-              <input type="checkbox" [(ngModel)]="inStockOnly" class="accent-brand-600 w-4 h-4" />
+              <input type="checkbox" [ngModel]="inStockOnly()" (ngModelChange)="inStockOnly.set($event)" class="accent-brand-600 w-4 h-4" />
             </label>
           </div>
         </div>
@@ -355,12 +358,12 @@ export class ShopComponent implements OnInit {
   productService = inject(ProductService);
   private route = inject(ActivatedRoute);
 
-  searchKeyword = '';
+  searchKeyword = signal<string>('');
   selectedCategory = signal<string>('');
   maxPrice = signal<number>(800);
-  minRating = 0;
-  inStockOnly = false;
-  sortBy = 'featured';
+  minRating = signal<number>(0);
+  inStockOnly = signal<boolean>(false);
+  sortBy = signal<string>('featured');
   mobileFilterOpen = signal(false);
 
   ngOnInit(): void {
@@ -369,10 +372,10 @@ export class ShopComponent implements OnInit {
         this.selectedCategory.set(params['category']);
       }
       if (params['filter'] === 'bestseller') {
-        this.sortBy = 'rating';
+        this.sortBy.set('rating');
       }
       if (params['q']) {
-        this.searchKeyword = params['q'];
+        this.searchKeyword.set(params['q']);
       }
     });
   }
@@ -384,10 +387,10 @@ export class ShopComponent implements OnInit {
   activeFilterCount = computed(() => {
     let count = 0;
     if (this.selectedCategory()) count++;
-    if (this.searchKeyword) count++;
+    if (this.searchKeyword()) count++;
     if (this.maxPrice() < 800) count++;
-    if (this.minRating > 0) count++;
-    if (this.inStockOnly) count++;
+    if (this.minRating() > 0) count++;
+    if (this.inStockOnly()) count++;
     return count;
   });
 
@@ -401,7 +404,7 @@ export class ShopComponent implements OnInit {
     }
 
     // Search query
-    const q = this.searchKeyword.trim().toLowerCase();
+    const q = this.searchKeyword().trim().toLowerCase();
     if (q) {
       list = list.filter(p =>
         p.name.toLowerCase().includes(q) ||
@@ -414,17 +417,19 @@ export class ShopComponent implements OnInit {
     list = list.filter(p => p.price <= this.maxPrice());
 
     // Min Rating
-    if (this.minRating > 0) {
-      list = list.filter(p => p.rating >= this.minRating);
+    const minR = this.minRating();
+    if (minR > 0) {
+      list = list.filter(p => p.rating >= minR);
     }
 
     // In Stock Only
-    if (this.inStockOnly) {
+    if (this.inStockOnly()) {
       list = list.filter(p => p.inStock);
     }
 
     // Sort
-    switch (this.sortBy) {
+    const sort = this.sortBy();
+    switch (sort) {
       case 'price-asc':
         list.sort((a, b) => a.price - b.price);
         break;
@@ -435,7 +440,12 @@ export class ShopComponent implements OnInit {
         list.sort((a, b) => b.rating - a.rating);
         break;
       case 'newest':
-        list.sort((a, b) => (b.badge?.includes('New') ? 1 : 0) - (a.badge?.includes('New') ? 1 : 0));
+        list.sort((a, b) => {
+          const aNew = a.badge?.includes('New') ? 1 : 0;
+          const bNew = b.badge?.includes('New') ? 1 : 0;
+          if (aNew !== bNew) return bNew - aNew;
+          return b.id.localeCompare(a.id);
+        });
         break;
       default:
         // featured
@@ -447,11 +457,11 @@ export class ShopComponent implements OnInit {
   });
 
   resetFilters(): void {
-    this.searchKeyword = '';
+    this.searchKeyword.set('');
     this.selectedCategory.set('');
     this.maxPrice.set(800);
-    this.minRating = 0;
-    this.inStockOnly = false;
-    this.sortBy = 'featured';
+    this.minRating.set(0);
+    this.inStockOnly.set(false);
+    this.sortBy.set('featured');
   }
 }
